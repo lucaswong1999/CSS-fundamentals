@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.package {
+    display: flex;
+    flex-wrap: wrap;
+
+    border: 1px solid black;
+    width: auto;
+    
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+
+    background-color: rgb(143, 215, 236);
+
+    width: 25%;
+    height: 150px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    background-color:rgb(233, 17, 107);
+
+    width: 75%;
+    height: 150px;
+}
+
+.text {
+    display: flex;
+    background-color: rgb(180, 241, 180);
+    font-style: italic;
+    width: 100%;
+}
+
+.img {
+    width: 100%;
+    height: 100px;
+
+    background-color: rgb(231, 119, 231);
+}
